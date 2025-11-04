@@ -1,0 +1,28 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     color: white;
+ }
+
+ body {
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 5%;
+     background-color: black;
+ }
+
+ h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 5rem;
+ }
+
+ .colorBtn button {
+     padding: 1rem 2.5rem;
+     border-radius: 40px;
+     border: 2px solid white;
+     background-color: black;
+ }
